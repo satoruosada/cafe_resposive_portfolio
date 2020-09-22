@@ -204,10 +204,19 @@
 			</div>
 			  <div class="l-container__body js-slideIn">
 	        <form action="" class="c-form c-form__m">
-	          <input type="text" class="c-input c-input__l" placeholder="お名前">
-	          <input type="email" class="c-input c-input__l" placeholder="email">
-	          <textarea name="" id="" cols="30" rows="10" class="c-input c-input__l c-input__textarea mb-xxl" placeholder="お問合わせ内容"></textarea>
-	          </textarea>
+           <div class="form-group">
+            <label>名前：任意<span class="help-block"></span><input type="text" class="c-input c-input__l valid-text" placeholder="お名前">
+           </div>
+           
+           <div class="form-group">
+             <label>E-mail：＊必須<span class="help-block"></span><input type="email" class="c-input c-input__l valid-email" placeholder="email">
+           </div>
+
+           <div class="form-group">
+            <label>内容：＊必須<span class="help-block"></span><textarea name="" id="" cols="30" rows="10" class="c-input c-input__l c-input__textarea mb-xxl valid-text" placeholder="お問合わせ内容"></textarea>
+            </textarea>
+
+           </div>
 	          <button class="c-btn c-btn__corp c-btn__l">送信</button>
 	        </form>
 	      </div>

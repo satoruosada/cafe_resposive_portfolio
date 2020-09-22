@@ -85,14 +85,33 @@ img {
   transition: all 2s; }
 
 .js-slideIn {
-  opacity: 0;
+  opacity: 2;
   transform: translateX(-200px);
   transition: all 5s; }
 
 .js-fadeIn {
   opacity: 0;
-  transform: translateY(-200px);
-  transition: all 1s; }
+  transform: translateY(-100px);
+  transition: all 0.1s; }
+
+/*バリデーション*/
+.help-block {
+  font-size: 14px;
+  margin-left: 10px; }
+
+/*エラー時*/
+.has-error input, .has-error textarea {
+  border: 1px solid #ff4d4b; }
+
+.has-error .help-block, .has-error label {
+  color: #ff4d4b; }
+
+/*サクセス時*/
+.has-success input, .has-success textarea {
+  border: 1px solid #2fb4ce; }
+
+.has-success .help-block, .has-success label {
+  color: #2fb4ce; }
 
 .l-container {
   width: 80%;
