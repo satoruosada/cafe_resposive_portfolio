@@ -5,7 +5,7 @@
   width:100%;
   height:80px;
   box-sizing: border-box;
-  background:rgb(223, 216, 149);
+  background:rgb(238, 193, 127);
   color: rgb(23, 24, 20);
   display: flex;
   align-items: center;
@@ -17,7 +17,7 @@
   z-index: 2;
   &.float-active{
     transition: .3s;
-    background: rgba(236, 188, 227, 0.9);
+    background: rgba(247, 213, 240, 0.9);
   }
   @include mq(){
     height:60px;
