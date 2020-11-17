@@ -3,12 +3,10 @@
 //==============
 .l-container{
   width:80%;
-  @include mq(){
+  @include mq($breakpoint: md){
     width:100%;
   }
-  @include mr(){
-    width:100%;
-  }
+  
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
@@ -76,7 +74,7 @@
     }
     @include mr(){
       position: relative;
-    left: 50px;
+      left: 50px;
     }
   }
   &__ornament{
